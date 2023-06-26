@@ -367,7 +367,7 @@ button {
   .productImage img {
     flex-direction: column;
     border-radius: 0;
-    width: 400px;
+    width: 420px;
     overflow: hidden;
   }
   .preImg {
@@ -388,7 +388,7 @@ button {
   .nextImg {
     position: absolute;
     top: 270px;
-    right: -12px;
+    right: -32px;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -481,12 +481,12 @@ button {
     border-radius: 10px;
   }
   .emptyCart {
-    width: 370px;
+    width: 350px;
     background: var(--white);
     border-radius: 10px;
     box-shadow: 3px 5px 10px 3px rgb(100, 96, 96, 0.2);
     height: 200px;
-    margin-left: 100px;
+    margin-left: 150px;
     display: none;
   }
   .cartContents hr {
@@ -504,7 +504,7 @@ button {
   .cartProductSelected {
     width: 350px;
     height: 220px;
-    margin-left: 120px;
+    margin-left: 170px;
   }
   .cartProductSelected h4 {
     padding: 10px 20px 0 10px;
