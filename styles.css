@@ -97,18 +97,7 @@ hr {
 main {
   margin: 50px 100px;
 }
-#hamburger {
-  display: block;
-}
-#hamburger-close {
-  display: block;
-}
-.pre {
-  display: block;
-}
-.next {
-  display: block;
-}
+
 .container {
   display: flex;
   gap: 120px;
@@ -309,6 +298,7 @@ button {
 @media only screen and (max-width: 600px) {
   body {
     width: 400px;
+    height: 100%;
     overflow-x: hidden;
   }
   header {
@@ -377,7 +367,7 @@ button {
   .productImage img {
     flex-direction: column;
     border-radius: 0;
-    width: 423px;
+    width: 400px;
     overflow: hidden;
   }
   .preImg {
@@ -398,7 +388,7 @@ button {
   .nextImg {
     position: absolute;
     top: 270px;
-    right: 18px;
+    right: -12px;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -458,22 +448,24 @@ button {
     margin-top: 20px;
   }
   .quantity {
-    width: 400px;
+    width: 350px;
     height: 50px;
+    margin-right: 18px;
   }
   .quantity .decrease {
     font-size: 30px;
   }
   .quantity .defaultQuantity {
-    margin-left: 160px;
+    margin-left: 130px;
   }
   .quantity .inrease {
-    margin-left: 180px;
+    margin-left: 150px;
     font-size: 25px;
   }
   button {
-    width: 400px;
+    width: 350px;
     height: 50px;
+    margin-right: 18px;
   }
   .cart2 img {
     color: var(--white);
@@ -555,5 +547,17 @@ button {
     padding-left: 130px;
     color: #fff;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);
+  }
+  #hamburger {
+    display: block;
+  }
+  #hamburger-close {
+    display: block;
+  }
+  .pre {
+    display: block;
+  }
+  .next {
+    display: block;
   }
 }
